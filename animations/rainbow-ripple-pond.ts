@@ -61,7 +61,7 @@ let rippleX: number[] = []
 let maxRipples = 0
 let rippleRadius: number[] = []
 let strip = neopixel.create(DigitalPin.P0, 64, NeoPixelMode.RGB)
-strip.setBrightness(40)
+strip.setBrightness(3)
 maxRipples = 6
 // Initialise empty ripples
 for (let i = 0; i <= maxRipples - 1; i++) {
