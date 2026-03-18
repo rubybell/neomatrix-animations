@@ -1,4 +1,4 @@
-// Rainbow-coloured audio visualiser
+// Rainbow-coloured audio visualiser that responds to loudness
 // Vibe coded with Claude in March 2026
 
 let strip = neopixel.create(DigitalPin.P0, 64, NeoPixelMode.RGB)
