@@ -2,7 +2,7 @@
 // Vibe coded with Claude in March 2026
 
 let strip = neopixel.create(DigitalPin.P0, 64, NeoPixelMode.RGB)
-strip.setBrightness(40)
+strip.setBrightness(3)
 
 // Each star has an x, y, brightness and speed
 let starX: number[] = []
