@@ -2,7 +2,7 @@
 // Vibe coded with Claude in March 2026
 
 let strip = neopixel.create(DigitalPin.P0, 64, NeoPixelMode.RGB)
-strip.setBrightness(30)
+strip.setBrightness(3)
 
 let currentRadius = 0
 let hueOffset = 0
