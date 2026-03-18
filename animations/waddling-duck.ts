@@ -38,7 +38,7 @@ let orange = 0
 let yellow = 0
 let strip: neopixel.Strip = null
 strip = neopixel.create(DigitalPin.P0, 64, NeoPixelMode.RGB)
-strip.setBrightness(30)
+strip.setBrightness(3)
 yellow = neopixel.rgb(255, 180, 0)
 orange = neopixel.rgb(255, 80, 0)
 white = neopixel.rgb(255, 255, 255)
